@@ -1,0 +1,7 @@
+-f https://download.pytorch.org/whl/cu118
+torch==2.0.0
+Flask
+itsdangerous
+Jinja2
+transformers
+Pillow
