@@ -30,6 +30,7 @@ this app allow you to choose topics from different fields of science like "biolo
 
 ## Problems
 some time the model returns empty text , so i have tried to solve this by displaying to user "Oops! Unable to generate QA for this topic. Please try again." text instead on generation page. Also model can be improved more, some times its hallucinates, if had bigger GPU i would have fine tuned it with better models and longer time to get better results.
+When you first run the app, it will take time when you click 'Generate QA' bcoz it will be downloading all the models and tokenizers used in the model, but once it start running you can generate text in 20 to 30 seconds, problably i should make changes to overcome this first run problem.
 
 
 
