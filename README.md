@@ -1,5 +1,5 @@
 # head_qa
-this app allow you to choose topics from different fields of science like "biology", "nursery", "psychology", "chemistry" and "pharmacology".Then you can get multiple chocie QA text generated, with correct answer. I have fine-tuned a gpt3 type model on head_qa dataset for this, i have taken the head_qa dataset and preprocessed in such a way that each question will have multiple possible answer and aslo the correct option mentioned.
+this app allow you to choose topics from different fields of science like "biology", "nursery", "psychology", "chemistry" and "pharmacology".Then you can get multiple chocie QA text generated, with correct answer. I have fine-tuned a gpt3 type model on head_qa dataset for this, i have taken the head_qa dataset and preprocessed in such a way that each question will have multiple possible answer and aslo the correct option mentioned. The code for fine-tuning the model is in notebooks/head_qa_notebook.ipynb, you can fine-tune your own model by using a different huggingface model.
 
 ## How to run the app
 
