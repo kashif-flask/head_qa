@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Topic and Parameters</title>
+</head>
+<body>
+    <h1>Select a Topic:</h1>
+    <form action="/generate" method="post">
+        <select name="topic">
+            {% for topic in topics %}
+                <option value="{{ topic }}">{{ topic }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="top_p">Top P:</label>
+        <input type="text" name="top_p" value="0.7"><br>
+        <label for="top_k">Top K:</label>
+        <input type="text" name="top_k" value="0"><br>
+        <input type="submit" value="Generate QA">
+    </form>
+</body>
+</html>
+

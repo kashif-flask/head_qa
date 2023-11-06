@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated QA</title>
+</head>
+<body>
+    <h1>Generated Question:</h1>
+    <p>{{ question|safe }}</p>
+    <h2>Options:</h2>
+    <button onclick="showAnswer()">Show Correct Answer</button>
+    <p id="correctAnswer" style="display:none;">Correct Answer: {{ correct_answer|safe }}</p>
+    
+    <a href="/">Generate QA for Another Topic</a>
+
+    <script>
+        function showAnswer() {
+            document.getElementById("correctAnswer").style.display = "block";
+        }
+    </script>
+</body>
+</html>
