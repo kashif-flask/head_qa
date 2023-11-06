@@ -16,13 +16,14 @@ this app allow you to choose topics from different fields of science like "biolo
    ![alt text](https://github.com/kashif-flask/head_qa/blob/main/front.PNG)
 
 2. Now choose here the topic about which you want the text generated, then choose parameters like top_p and top_k:
-   . top_p (Nucleus Sampling): This parameter influences the diversity of the generated text. A higher top_p value (closer to 1) leads to more varied and creative 
+   
+   * top_p (Nucleus Sampling): This parameter influences the diversity of the generated text. A higher top_p value (closer to 1) leads to more varied and creative 
    responses. If you want the generated text to be more diverse, you can increase the top_p value.
 
-   . top_k (Top-K Sampling): This parameter controls the focus of the generated text. A higher top_k value limits the output to a smaller set of more probable tokens, 
+   * top_k (Top-K Sampling): This parameter controls the focus of the generated text. A higher top_k value limits the output to a smaller set of more probable tokens, 
    resulting in a more focused and deterministic response. If you want the generated text to be more focused and coherent, you can decrease the top_k value.
 
-3. Then click on 'Generate QA' button to get the generate text:
+4. Then click on 'Generate QA' button to get the generate text:
    ![alt text](https://github.com/kashif-flask/head_qa/blob/main/generated.PNG)
 
 4.Click on 'Show Correct Answer' to see the correct option
