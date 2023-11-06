@@ -3,7 +3,7 @@ this app allow you to choose topics from different fields of science like "biolo
 
 ## How to run the app
 
-1. git clone (https://github.com/kashif-flask/head_qa.git)
+1. git clone https://github.com/kashif-flask/head_qa.git
 2. Install all dependencies given in requirements.txt file in cmd using  pip install -r requirements.txt
 3. run the file app.py in cmd , you will get local host http://127.0.0.1:5000/ 
 4. Now open the url in web browser.
@@ -16,10 +16,10 @@ this app allow you to choose topics from different fields of science like "biolo
    ![alt text](https://github.com/kashif-flask/head_qa/blob/main/front.PNG)
 
 2. Now choose here the topic about which you want the text generated, then choose parameters like top_p and top_k:
-   .top_p (Nucleus Sampling): This parameter influences the diversity of the generated text. A higher top_p value (closer to 1) leads to more varied and creative 
+   . top_p (Nucleus Sampling): This parameter influences the diversity of the generated text. A higher top_p value (closer to 1) leads to more varied and creative 
    responses. If you want the generated text to be more diverse, you can increase the top_p value.
 
-   .top_k (Top-K Sampling): This parameter controls the focus of the generated text. A higher top_k value limits the output to a smaller set of more probable tokens, 
+   . top_k (Top-K Sampling): This parameter controls the focus of the generated text. A higher top_k value limits the output to a smaller set of more probable tokens, 
    resulting in a more focused and deterministic response. If you want the generated text to be more focused and coherent, you can decrease the top_k value.
 
 3. Then click on 'Generate QA' button to get the generate text:
